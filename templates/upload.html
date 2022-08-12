@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>워드클라우드 생성기</title>
+  </head>
+   <body>
+      <h1> 카톡대화 기반 워드클라우드 생성기 </h1>
+      <h5> 생성을 위한 txt 파일을 업로드하세요</h5>
+      <form action = "http://localhost:5000/upload" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "file" />
+         <button type = "submit">전송</button>
+      </form>
+   </body>
+</html>
